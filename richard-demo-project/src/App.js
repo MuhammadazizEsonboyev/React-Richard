@@ -1,13 +1,16 @@
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-  <div>
-    <h1>Hello world</h1>
-    <h2>hello </h2>
-    <h3>samero</h3>
-    <h4>o'zgarish uchun</h4>
-  </div>
+    <div>
+      <div className="container">
+        <div className="row">
+          <div className="col-8">
+            <h1>Hamma ulashlarni ulab qo'ydim, menimcha...</h1>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
