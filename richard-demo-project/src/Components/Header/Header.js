@@ -3,27 +3,18 @@ import React from 'react'
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#!">Панель навигации</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#!">Главная</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#!">Рекомендуемые</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#!">Цена</a>
-              </li>
-            </ul>
+      <div className="container">
+        <div className="row">
+          <div className="col-6">
+            <h1 style={{}}>Momentum</h1>
+            <p>Launch your product — and savor the momentum.</p>
+            <button style={{}}>Get the App</button>
+          </div>
+          <div className="col-6">
+          <img src="" className="d-block w-100" alt="..." />
           </div>
         </div>
-      </nav>
+      </div>
     </>
   )
 }
