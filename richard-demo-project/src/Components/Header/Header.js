@@ -1,5 +1,6 @@
 import React from 'react'
-import img_1 from "../Img/IMAGE (1)"
+import imgheader from "../Img/IMAGE (1).png"
+import "./header.css"
 
 export default function Header() {
   return (
@@ -7,12 +8,14 @@ export default function Header() {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <h1 style={{}}>Momentum</h1>
-            <p>Launch your product — and savor the momentum.</p>
-            <button style={{}}>Get the App</button>
+            <h1 className='momentum' style={{}}>Momentum</h1>
+            <p className='headerp'>Launch your product — and savor the momentum.</p>
+            <button className='headerbtn' style={{}}>Get the App</button>
           </div>
-          <div className="col-6">
-          <img src={img_1} className="d-block w-100" alt="..." />
+          <div className="col-5">
+            <div className='headerdiv'>
+              <img src={imgheader} className="d-block w-710 " alt="png" />
+            </div>
           </div>
         </div>
       </div>
