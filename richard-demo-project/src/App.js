@@ -10,15 +10,16 @@ function App() {
   
 
   return (
+
     <div>
+      <Header/>
       <Router>
       <Navbar/>
-      <Header/>
 
-        <Routes>
+        {/* <Routes>
         <Route />
          
-        </Routes>
+        </Routes> */}
       </Router>
       <div className="container">
         <div className="row">

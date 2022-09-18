@@ -1,5 +1,5 @@
 import React from 'react'
-import img_1 from "../Img/IMAGE (1)"
+import img_1 from "../Img/IMAGE (1).png"
 
 export default function Header() {
   return (
