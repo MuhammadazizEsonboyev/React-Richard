@@ -9,7 +9,7 @@
 
 .d-block {
     margin-top: 60px;
-} 
+}
 
 .headerp {
     font-style: normal;
@@ -19,6 +19,22 @@
     color: #FFFFFF;
     margin-top: 10px;
     position: absolute;
+}
+
+.navheader {
+    background-image: url(../Img/Rectangle\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 /* .headerdiv{} */
