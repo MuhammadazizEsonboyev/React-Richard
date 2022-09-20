@@ -21,7 +21,11 @@
     position: absolute;
 }
 
-
+.navheader {
+    background-image: url(../Img/Rectangle\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .Header {
     font-style: normal;
@@ -32,6 +36,8 @@
     padding-left: 30px;
     padding-top: 20px;
 }
+
+/* .headerdiv{} */
 
 .headerbtn {
     background: #FC0A7E;
