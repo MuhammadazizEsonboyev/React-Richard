@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Section_5() {
   return (
-    <div>Section_5</div>
+    <>
+    <h1>Sem Risus Elit Vestibulum </h1>
+    </>
   )
 }
