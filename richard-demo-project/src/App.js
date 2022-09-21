@@ -1,29 +1,21 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header/Header";
-import "./App.css";
-import Section_5 from "./Components/Section_5/Section_5";
+import Section1 from "./Components/Section1/Section1";
+import Section4 from "./Components/Section4/Section4";
+import Section5 from "./Components/Section5/Section5";
 
-function App() {
+
+
+export default function App() {
   return (
     <div className="app">
-      <Router>
-        <Navbar />
-        <Header />
-        <Section_5/>
 
-        <Routes>
-          <Route />
-        </Routes>
-      </Router>
-      <div className="container">
-        <div className="row">
-          <div className="col-8"></div>
-        </div>
-      </div>
+      <Header />
+      <Section1/>
+      <Section4/>
+      <Section5/>
+ 
     </div>
-  );
+  )
 }
 
-export default App;
