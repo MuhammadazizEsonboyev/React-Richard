@@ -1,6 +1,6 @@
-import React from 'react'
-import Sectionimg from "../Img/IMAGE (2).png"
-import "./Section1.css"
+import React from 'react';
+import "./Section1.css";
+import Sectionimg from "../Img/IMAGE(2).png";
 
 export default function Section1() {
   return (

@@ -1,7 +1,7 @@
-import React from 'react'
-import "./section.css"
+import React from 'react';
+import "./Section6.css";
 
-export default function Section_6() {
+export default function Section6() {
   return (
     <>
     </>
