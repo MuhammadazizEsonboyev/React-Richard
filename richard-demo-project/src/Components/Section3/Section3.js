@@ -1,8 +1,8 @@
 import React from "react";
-import Section3img from "../Img/Page-1.png";
-import Sectionimg from "../Img/Page-1 (1).png";
-import Section2img from "../Img/Combined-Shape.png";
 import "./Section3.css";
+import Section3img from "../Img/Page-1.png";
+import Sectionimg from "../Img/Page-1(1).png";
+import Section2img from "../Img/Combined-Shape.png";
 
 export default function Section3() {
   return (

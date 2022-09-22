@@ -1,7 +1,7 @@
-import React from 'react'
-import "./header.css"
-import imgheader from "../Img/IMAGE (1).png"
-import imgnavbar from "../Img/IMAGE.png"
+import React from 'react';
+import "./Header.css";
+import imgheader from "../Img/IMAGE(1).png";
+import imgnavbar from "../Img/IMAGE.png";
 
 export default function Header() {
   return (

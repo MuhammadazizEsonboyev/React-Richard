@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export default function Section_2() {
+export default function Section2() {
   return (
-    <div>Section_2</div>
+    <div>Section2</div>
   )
 }

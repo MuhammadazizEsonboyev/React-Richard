@@ -1,7 +1,7 @@
 import React from "react";
-import "./section4.css";
-import img6 from "../Img/IMAGE (6).png";
-import img7 from "../Img/IMAGE (7).png";
+import "./Section4.css";
+import img6 from "../Img/IMAGE(6).png";
+import img7 from "../Img/IMAGE(7).png";
 
 export default function Section4() {
   return (
@@ -28,13 +28,13 @@ export default function Section4() {
           </div>
         </div>
       </div>
+
       <div className="container con4">
         <div className="row justify-content-center">
           <div className="col-6 text-start">
             <img src={img7} alt="png" className="img7" />
           </div>
-
-          <div className="col-4">
+          <div className="col-4 text-start">
             <div className="col-11">
               <div className="col-11">
                 <p className="secp_41">Aenean Consectetur Porta</p>

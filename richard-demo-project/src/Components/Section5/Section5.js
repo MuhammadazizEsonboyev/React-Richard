@@ -1,8 +1,8 @@
-import React from 'react'
-import img from "../Img/“.png"
-import img5 from "../Img/IMAGE (9).png"
-import img8 from "../Img/IMAGE (8).png"
-import "./Section5.css"
+import React from 'react';
+import "./Section5.css";
+import img from "../Img/“.png";
+import img5 from "../Img/IMAGE(9).png";
+import img8 from "../Img/IMAGE(8).png";
 
 
 export default function Section5() {
