@@ -26,7 +26,7 @@ export default function Section5() {
           <p className='secondp'>New York Times</p>
         </div>
       </div>
-      <div className='col-10 marginAuto'>
+      <div className='col-10 margiAut'>
       <img src={img5} alt="png" className='img5'/>
       </div> 
     <div className='tellar'>
