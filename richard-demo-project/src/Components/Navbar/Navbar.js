@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import imgnavbar from "../Img/IMAGE.png"
 import "./navbar.css"
-
 export default function Navbar() {
   return (
     <>
