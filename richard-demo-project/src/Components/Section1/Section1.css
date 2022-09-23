@@ -1,0 +1,32 @@
+.sectionbackround{
+    background:#1B1B1B;;
+}
+.xox{
+  color: #fff;
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 100px
+}
+.nullam {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.style{
+    margin: auto;
+}
+.d-block{
+    margin: auto;
+    margin-top: 55px;
+}

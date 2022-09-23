@@ -1,0 +1,60 @@
+.img {
+    margin: auto;
+    text-align: center;
+    margin-top: 162px;
+}
+
+.p {
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-top: 67px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.plar {
+    margin: auto;
+}
+
+.HeadNulla {
+    margin: auto;
+
+}
+
+.firstp {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.img5{
+    margin-top: 142px;
+}
+
+.secondp {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.marginAuto{
+    margin: auto;
+}
+
+.img8{
+    margin-top: 118px;
+    width: 100%;
+}
+

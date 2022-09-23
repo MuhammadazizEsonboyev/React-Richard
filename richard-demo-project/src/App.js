@@ -1,34 +1,18 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Header from "./Components/Header/Header";
-import "./App.css"
+import Section1 from "./Components/Section1/Section1";
+import Section3 from "./Components/Section3/Section3";
+import Section4 from "./Components/Section4/Section4";
+import Section5 from "./Components/Section5/Section5";
 
-
-function App() {
-  
-
+export default function App() {
   return (
-    <div className="app">
-      <Router>
-      <Navbar/>
+    <>
       <Header/>
-
-        <Routes>
-        <Route />
-         
-        </Routes>
-      </Router>
-      <div className="container">
-        <div className="row">
-          <div className="col-8">
-           
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+      <Section1/>
+      <Section3/>
+      <Section4/>
+      <Section5/>
+    </>
+  )
 }
-
-export default App;
