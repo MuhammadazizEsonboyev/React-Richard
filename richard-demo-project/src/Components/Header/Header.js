@@ -2,6 +2,7 @@ import React from 'react';
 import "./header.css";
 import imgheader from "../Img/IMAGE(1).png";
 import imgnavbar from "../Img/IMAGE.png";
+import { Link} from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -10,13 +11,23 @@ export default function Header() {
         <div className="row">
           <div className='col-12'>
             <nav
-              className="navbar " style={{color: "black", }}>             
-                <img src={imgnavbar} className=" " alt="png" />
-              <div style={{ display: "flex" }}>
+              className="navbar " style={{color: "black"}}>    
+              <Link to="/section2">
+                <img src={imgnavbar} className=" " alt="png"/>
+              </Link>         
+              <div style={{display: "flex" }}>
+                <Link to="/section4">
                   <p className='Header' >About</p>
-                  <p className='Header'>Features</p>
-                  <p className='Header'>How to Use</p>
-                  <p className='Header'>Download</p>
+                </Link>
+                <Link>
+                  <p className='Header' >About</p>
+                </Link>
+                <Link>
+                  <p className='Header' >About</p>
+                </Link>
+                <Link>
+                  <p className='Header' >About</p>
+                </Link>  
               </div>
             </nav>
           </div>
