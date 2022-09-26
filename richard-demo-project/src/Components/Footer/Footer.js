@@ -1,31 +1,30 @@
 import React from 'react';
-import "./footer.css";
-import Logo from "../Img/IMAGE (10).png";
+import footerImage from "../Img/IMAGE (10).png"
+import "./footer.css"
 
 export default function Footer() {
   return (
     <>
-    <div className='footer-body' >
-    <footer class="footer1">
-      <h1>Get updates from Richard</h1>
-      <a href='#!'>New course alerts, discounts and free lessons</a>
-      <input type="email" placeholder="Email your email" /><button className='foot-btn'>
-        <a className='link' href="#!">Subscribe</a>
-      </button>
-    </footer>
-    <footer class="footer2">
-      <img src={Logo} alt="logo" />
-      <div class="spans">
-        <span className='foot-span'>Email</span>
-        <span className='foot-span'>Instagram</span>
-        <span className='foot-span'>Facebook</span>
-        <span className='foot-span'>Twitter</span>
-        <span className='foot-span'>Image Licanse Info</span>
-        <span className='foot-span'>Powered by Webflow</span>
-      </div>
-    </footer>
+      <footer className='footer1'>
+        <h2 id='footer-h2'>Get updates from Richard</h2>
+        <p id='footer-p'>New course alerts, discounts and free lessons</p>
+        <input id='footer-input' type={"email"} placeholder="Enter your email"/>
+        <button id='footer-btn'><a href='#!' id='footer-btn-text'>Subscribe</a></button>
+      </footer>
 
-    </div>
+{/* -------------------------------------------------- footer2 start ------------------------------------------------------ */}
+
+      <footer className="footer2" >
+            <img id='footer-logo' src={footerImage} alt="logo" />
+            <div className='spans'>
+              <span id='span-item'>Email</span>
+              <span id='span-item'>Instagram</span>
+              <span id='span-item'>Facebook</span>
+              <span id='span-item'>Twitter</span>
+              <span id='span-item'>Image Lisance Info</span>
+              <span id='span-item'>Powered Webflow</span>
+            </div>
+      </footer>
     </>
   )
 }
