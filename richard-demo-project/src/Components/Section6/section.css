@@ -1,0 +1,78 @@
+.body {
+    height: 474px;
+  background: rgb(203, 90, 193);
+  background: linear-gradient(
+    90deg,
+    rgba(203, 90, 193, 1) 0%,
+    rgba(124, 18, 88, 1) 50%
+  );
+}
+
+h2 {
+  width: 395px;
+  height: 48px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  margin: auto;
+  padding-top: 165px;
+  padding-bottom: 40px;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 40px;
+  height: 66px;
+}
+
+.btn1 {
+  height: 66px;
+  background: #fc0a7e;
+  border-radius: 3px;
+  margin-right: 10px;
+  border: none;
+}
+
+.btn1 a {
+  width: 110px;
+  height: 26px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.btn2 {
+  /* width: 171px; */
+  height: 66px;
+  border: 1px solid #b04bb3;
+  background: transparent;
+}
+
+.btn2 a {
+    width: 110px;
+    height: 26px;
+    font-family: "Gothic A1";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }

@@ -1,0 +1,47 @@
+.momentum {
+    margin-top: 186px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.d-block {
+    margin-top: 60px;
+}
+
+.headerp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.navheader {
+    background-image: url(../Img/Rectangle\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.headerbtn {
+    background: #FC0A7E;
+    border-radius: 3px;
+    margin-top: 90px;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+}
