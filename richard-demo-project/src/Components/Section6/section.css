@@ -12,7 +12,6 @@
 }
 
 .ready {
-  width: 395px;
   height: 48px;
   font-family: "Gothic A1";
   font-style: normal;
@@ -20,9 +19,9 @@
   font-size: 38px;
   line-height: 48px;
   color: #ffffff;
-  margin: auto;
   padding-top: 165px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .buttons {
