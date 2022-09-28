@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap");
+
+/* .section2 {
+  height: 4739.73px;
+} */
+
+.col-box {
+  padding-top: 268px;
+}
+
+.section2-span1 {
+  padding-bottom: 30px;
+  font-family: "Gothic A1" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+.section2-s {
+  font-family: "Gothic A1" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+  padding-bottom: 70px;
+  margin-top: 30px;
+}
+
+.section2-p {
+  font-family: "Gothic A1" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+  padding-right: 195px;
+}
+
+.col-box2 {
+  padding-top: 80px;
+  padding-bottom: 288px;
+}
+
+.section2-image-phone {
+  width: 341px;
+  height: 637px;
+  left: calc(50% - 341px / 2 + 0.5px);
+  top: calc(50% - 637px / 2);
+  border-radius: 0px;
+}
+
+.section2-image-order {
+  width: 386px;
+  height: 469px;
+  left: calc(50% - 386px / 2);
+  top: calc(50% - 469px / 2);
+}
+
+.section2-span2 {
+  padding-bottom: 25px;
+  font-family: "Gothic A1" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+.section2-amet {
+  font-family: "Gothic A1" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+  padding-bottom: 25px;
+  margin-top: 25px;
+}
+
+.section2-p2 {
+  font-family: "Gothic A1" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}

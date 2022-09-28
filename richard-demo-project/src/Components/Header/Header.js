@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Header.css";
+import "./header.css";
 import imgheader from "../Img/IMAGE(1).png";
 import imgnavbar from "../Img/IMAGE.png";
 

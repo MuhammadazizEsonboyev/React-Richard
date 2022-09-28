@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section4.css";
+import "./section4.css";
 import img6 from "../Img/IMAGE(6).png";
 import img7 from "../Img/IMAGE(7).png";
 
