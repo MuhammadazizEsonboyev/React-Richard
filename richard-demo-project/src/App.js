@@ -1,36 +1,20 @@
-import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import Header from "./Components/Header/Header";
-import "./App.css"
+import { Button, Stack } from '@mui/material'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import PersistentDrawerLeft from './components/Drawer/Drawer'
+import Home from './components/Home/Home'
+import Product from './components/Product/Product'
 
-
-
-
-function App() {
-  
-
+export default function App() {
   return (
-    <div className="app">
+    <>
       <Router>
-      <Navbar/>
-      <Header/>
-
+        <PersistentDrawerLeft />
         <Routes>
-        <Route />
-         
+          <Route path='/home' element={<Home />} />
+          <Route path='/product' element={<Product />} />
         </Routes>
       </Router>
-      <div className="container">
-        <div className="row">
-          <div className="col-8">
-           
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    </>
+  )
 }
-
-export default App;
