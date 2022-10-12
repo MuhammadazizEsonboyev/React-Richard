@@ -21,8 +21,24 @@ import LocalMallIcon from '@mui/icons-material/LocalMall';
 import MailIcon from '@mui/icons-material/Mail';
 import InfoIcon from '@mui/icons-material/Info';
 import { CoPresentOutlined } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Home from '../Home/Home';
+import MainRoutes from "../MenuRouter/MenuRouter"
+import { Link as RouterLink } from "react-router-dom";
+// import { makeStyles } from "@mui/styles"
+
+
+// const useStyles = makeStyles({
+//   active: {
+//     backgroundColor: "#2DA55F",
+//     width: "5px",
+//     padding: "20px 1.5px",
+//     marginRight: "8px",
+//     borderRadius: "50px",
+//   },
+// })
+
+
 
 
 const drawerWidth = 240;
@@ -73,6 +89,9 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 }));
 
 export default function PersistentDrawerLeft() {
+  const location = useLocation()
+  // const classes = useStyles()
+
 
   const [menu, setMenu] = React.useState("")
   const theme = useTheme();
@@ -132,31 +151,28 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader>
         <Divider />
         <List >
-          {['Bosh sahifa', 'Mahsulotlar', 'Email', 'Biz haqimizda'].map((text, index) => {
-            return (
               <>
-                <ListItem key={text} disablePadding >
-                  <ListItemButton >
-                    <ListItemIcon >
-                      <Link to='/home'>
-                        {index === 0 ? <HomeIcon /> : null}
-                      </Link>
-                    </ListItemIcon>
-
-                    <Link to="/product">
-                      <ListItemIcon>
-                        {index === 1 ? <LocalMallIcon /> : null}
-                      </ListItemIcon>
-                    </Link>
-
-                    {/* {index === 2 ? <MailIcon /> : null} */}
-                    {/* {index === 3 ? <InfoIcon /> : null} */}
-                    <ListItemText primary={text} />
-                  </ListItemButton>
-                </ListItem>
+                {MainRoutes.map((text) => (
+                  <ListItem
+                    disablePadding
+                    key={text.path}
+                    component={RouterLink}
+                    to={text.path}
+                  >
+                    <ListItemButton>
+                      <div
+                        className={
+                          location.pathname == text.path ? "" : ""
+                        }
+                      >
+                        {/* {" "} */}
+                      </div>
+                      <ListItemIcon>{text?.icon}</ListItemIcon>
+                    </ListItemButton>
+                    {text.title}
+                  </ListItem>
+                ))}
               </>
-            )
-          })}
         </List>
         <Divider />
       </Drawer>
